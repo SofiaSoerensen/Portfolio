@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sofia is a front-end developer based in Madrid."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,6 +32,36 @@
     <title>About Me - Sofia Soerensen</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            alt="logo"
+            class="logo d-none d-md-block"
+          />
+          <img
+            src="images/logo-small.jpg"
+            alt="logo"
+            class="logo d-block d-md-none"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Sofia">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Sofia's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Sofia">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -40,13 +74,68 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding">View my projects</a>
+            <a href="/work.html" class="btn btn-branding">View my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
           <img src="images/portrait2.png" alt="" class="img-fluid" />
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Sofia"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:sofia191004@gmail.com"
+            class="email-link"
+            title="Email Sofia"
+            >sofia191004@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/sofia"
+            target="_blank"
+            title="Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://github.com/SofiaSoerensen"
+            target="_blank"
+            title="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/sofia"
+            target="_blank"
+            title="Facebook"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Sofia Soerensen, and it is
+          <a
+            href="https://github.com/SofiaSoerensen/Portfolio/tree/main"
+            target="_blank"
+            >open-sourced.</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
