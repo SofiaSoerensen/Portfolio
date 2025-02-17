@@ -105,6 +105,12 @@ p {
   margin: 30px;
 }
 
+.contact-links a {
+  color: var(--branding-color);
+  text-decoration: none;
+  font-size: 18px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -218,5 +224,9 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .contact-links {
+    display: flex;
+    flex-direction: column;
   }
 }
