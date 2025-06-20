@@ -57,6 +57,12 @@ p {
   line-height: 30px;
 }
 
+.topbar-name {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -213,6 +219,15 @@ footer .social-links a:hover {
   }
   h3 {
     font-size: 24px;
+  }
+
+  .about-work-h1 h1 {
+    font-size: 34px;
+    line-height: 56px;
+  }
+
+  .topbar-name {
+    display: none;
   }
   .hero {
     padding: 80px 20px;
