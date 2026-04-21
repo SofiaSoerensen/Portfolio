@@ -66,7 +66,10 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 100px 20px;
+  padding: 100px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero p {
@@ -226,6 +229,45 @@ footer .social-links a:hover {
 footer p a {
   color: #272142;
 }
+/* ── Hero languages line ── */
+.hero p.hero-languages {
+  font-size: 11px;
+  font-weight: 400;
+  font-family: var(--default-font-family);
+  color: #272142;
+  letter-spacing: 0.08em;
+  margin-top: auto;
+  padding-top: 40px;
+}
+
+/* ── About page languages ── */
+.languages-label {
+  font-size: 14px;
+  font-family: var(--default-font-family);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #272142;
+  opacity: 0.4;
+  margin-bottom: 12px;
+}
+
+.language-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.language-tag {
+  background: var(--secondary-color);
+  color: var(--branding-color);
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--default-font-family);
+  padding: 6px 16px;
+  border-radius: 20px;
+}
+
 /* ── Tech stack tags ── */
 .tech-tags {
   display: flex;
